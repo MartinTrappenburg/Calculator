@@ -25,15 +25,15 @@ function Operator3 (F) {
 		Ans = +Getal1 + +Getal2;
 		display.innerHTML = Ans;
 	}
-		if (Operator == '-') {
+	if (Operator == '-') {
 		Ans = +Getal1 - +Getal2;
 		display.innerHTML = Ans;
 	}
-		if (Operator == '*') {
+	if (Operator == '*') {
 		Ans = Math.round(+Getal1) * +Getal2;
 		display.innerHTML = Ans;
 	}
-		if (Operator == '/') {
+	if (Operator == '/') {
 		Ans = +Getal1 / +Getal2;
 		display.innerHTML = Ans;
 	}
